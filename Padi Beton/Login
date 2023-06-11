@@ -1,0 +1,66 @@
+ <form>
+            <form action="?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+                <!-- Form fields -->
+                <div class="form-group">
+                    <label for="deskripsi">Deskripsi:</label>
+                    <textarea id="deskripsi" name="deskripsi" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="alamat">Alamat:</label>
+                    <input type="text" id="alamat" name="alamat" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Simpan</button>
+                </div>
+                <form>
+
+
+
+
+
+
+                    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padisuper Bata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href=''>Padisuper Beton.</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#bentuk barang">Bentuk barang</a></li>
+                    <li><a href="#partners">partners</a>
+                    <li><a href="#contact us">contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrepper">
+        <section id="home">
+            <div class="kolom">
+                <img src="FOTO 1.jpg" class="madep" alt="Image Description">
+                <p class="'deskripsi"> Profil Perusahaan </p>
+                <h2> Padi super menjual dan memproduksi berbagai macam bahan bangunan murah berkualitas </h2>
+                <h2>kami menyediakan kebutuhan bahan banguan anda, menjual berbagai macam bahan banguan dengan bentuk
+                    model warna dan ukuran lainnya</h2>
+                <h3>Alamat</h3>
+                <p>Jl PHH Mustofa No 22A</p>
+            </div>
+        </section>
+        <footer>
+            &copy; 2023 Toko Bangunan. All rights reserved.
+        </footer>
+    </div>
+</body>
+
+</html>
