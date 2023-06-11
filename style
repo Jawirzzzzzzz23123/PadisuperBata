@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.madep{
+    width: 100vw;
+    height: 1100px;;
+}
+img {
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    width: 100;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #b35c44;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #884A39;
+}
+
+.resized-img {
+    width: 300px;
+    /* Adjust the width as needed */
+    height: auto;
+    /* Keeps the aspect ratio */
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    footer.sideways-footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      
+      .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .footer-links {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+      
+      .footer-links li {
+        display: inline-block;
+        margin: 0 10px;
+      }
+      
+      .footer-links li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .footer-links li a:hover {
+        text-decoration: underline;
+      }
+      
+}
+
+header {
+    background-color: #884A39;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+</style>
